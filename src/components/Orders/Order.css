@@ -23,12 +23,13 @@
 }
 
 .delete-order {
+    display:  flex;
+    align-items: center;
+    justify-content: center;
     width: 25px;
-    height: 25px;
-    color: brown;
-    border-radius: 50%;
+    height: 31px;
+    background-image: url('../images/удалить.png');
     text-align: center;
-    line-height: 21px;
     font-weight: 900;
     float: right;
 }
