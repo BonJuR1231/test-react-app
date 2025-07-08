@@ -1,0 +1,17 @@
+
+.content-footer {
+    height: 50px;
+    background-color: gray;
+    text-align: center;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+}       
+
+.content-text {
+    background-color: gray;
+    font-size: 13px;
+    color:  wheat;
+    width: 100%;
+    text-align: center;
+}

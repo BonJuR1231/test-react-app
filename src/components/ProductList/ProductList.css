@@ -1,0 +1,46 @@
+main {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto
+}
+
+main .item {
+    width: 30%;
+    margin-bottom: 50px;
+    background-color: beige;
+    position: relative;
+}
+
+main .item img {
+    width: 100%;
+}
+
+main h2, main p {
+    color: black;
+    margin: 5px 10px;
+}
+
+main h2 {
+    font-size: 15px;
+}
+
+main p {
+    color: green;
+    font-weight: 600;
+}
+
+.add-to-cart {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    background-color: brown;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    border-radius: 50%;
+    font-weight: 600;
+}
